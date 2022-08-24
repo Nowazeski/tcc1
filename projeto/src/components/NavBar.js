@@ -2,11 +2,12 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import './css/NavBar.css'
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
+
 import Entrar from "../pages/Entrar";
 import rotas from "../rotas";
+import './css/NavBar.css'
 
 
 function NavBar() {

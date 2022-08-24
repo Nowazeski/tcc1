@@ -1,12 +1,13 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import Home from "./pages/Home/Home.jsx";
 import Entrar from "./pages/Entrar";
 import Cadastrar from "./pages/Cadastrar/index.jsx";
 import NavBar from "./components/NavBar.js";
 
 
-function Rotas() {
+export default function Rotas() {
 
   return (
     <BrowserRouter>
@@ -19,5 +20,3 @@ function Rotas() {
     </BrowserRouter>
   );
 };
-
-export default Rotas;

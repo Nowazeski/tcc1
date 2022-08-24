@@ -1,8 +1,8 @@
 import React from "react";
-import "./entrar.css";
-
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+
+import "./entrar.css";
 
 export default function Entrar() {
   return (
@@ -18,6 +18,5 @@ export default function Entrar() {
         </Form.Group>
       </Form> */}
     </>
-
   );
 };
