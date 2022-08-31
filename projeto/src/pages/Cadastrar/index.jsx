@@ -4,12 +4,15 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Row from 'react-bootstrap/Row';
-
 import './cadastro.css'
 
-export default function Cadastrar() {
+function Cadastrar() {
   return (
     <div>
+
+      <h1>CADASTRO</h1>
     </div>
   );
 };
+
+export default Cadastrar;
