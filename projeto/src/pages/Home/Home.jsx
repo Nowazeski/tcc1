@@ -1,10 +1,15 @@
 import react from "react";
+import Card from "../../components/Card1"
 
-import NavBar from "../../components/NavBar"
+import '../css/home.css'
 
 export default function Home() {
 
   return (
-    <h1>Home</h1>
+    <div className="row justify-content-around home ">
+      <Card></Card>
+    </div>
+
   );
+
 };
