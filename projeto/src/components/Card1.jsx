@@ -2,6 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+
 import "./css/card.css";
 
 export default function Card1() {
@@ -21,8 +22,8 @@ export default function Card1() {
             <Button className="mx-auto w-50 botao" variant="primary">Saiba Mais</Button>
           </Card.Body>
         </Card>
-        <Card style={{ width: '18rem' }}>
-          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+        <Card className="card-img" style={{ width: '18rem' }}>
+          <Card.Img variant="top" />
           <Card.Body className="row align-items-center">
             <Card.Title>Inglês</Card.Title>
             <Card.Text>
