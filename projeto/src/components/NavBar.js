@@ -8,7 +8,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 import Home from '../pages/Home/Home';
 
 import Entrar from "../pages/Entrar";
-import './css/navBar.css'
+// import './css/navBar.css'
 import rotas from "../rotas";
 
 
