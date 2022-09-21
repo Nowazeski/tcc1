@@ -1,0 +1,6 @@
+*{
+    grid-template-areas:"header header" 
+                        "main main"
+                        "footer footer";
+    grid-template-columns:  1fr 1fr;
+}
