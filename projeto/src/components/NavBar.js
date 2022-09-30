@@ -8,7 +8,15 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 import Home from '../pages/Home/Home';
 
 import Entrar from "../pages/Entrar";
+<<<<<<< Updated upstream
 import './css/navBar.css'
+=======
+<<<<<<< Updated upstream
+// import './css/navBar.css'
+=======
+//import './css/navBar.css'
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 import rotas from "../rotas";
 
 
