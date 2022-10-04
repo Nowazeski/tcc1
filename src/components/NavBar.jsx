@@ -16,8 +16,8 @@ import rotas from "../rotas";
 export default function NavBar() {
   return (
     <>
-      <Navbar bg="primary" variant="dark" className="navbar">
-        <Container className="container">
+      <Navbar bg="primary" variant="dark" className="navbar col-12">
+        <Container className="col-md-6">
           {/* <DropdownButton className="col-8" id="dropdown-basic-button" title="Cursos">
             <Dropdown.Item href="#/action-1">Português</Dropdown.Item>
             <Dropdown.Item href="#/action-2">Ingles</Dropdown.Item>
@@ -26,9 +26,9 @@ export default function NavBar() {
           <Nav className="me-auto subMenu justify-content-between col-3">
             {/* <Nav.Link href="../pages/Home/">Inicio</Nav.Link> */}
           
-            <Nav.Link className="" href="/">Inicio</Nav.Link>
-            <Nav.Link className="btnEntrar col-2" href="/Entrar">Entrar</Nav.Link>
-            <Nav.Link className="" href="/Cadastrar">Cadastrar</Nav.Link>
+            <Nav.Link className="col-sm-4" href="/">Inicio</Nav.Link>
+            <Nav.Link className="btnEntrar col-sm-4" href="/Entrar">Entrar</Nav.Link>
+            <Nav.Link className="col-sm-4" href="/Cadastrar">Cadastrar</Nav.Link>
           </Nav>
         </Container>
       </Navbar >

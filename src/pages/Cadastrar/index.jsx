@@ -7,7 +7,8 @@ import './cadastro.css'
 function Cadastrar() {
   return (
     <>
-      <Form className="container h-100 w-100 p-5">
+    <div className="Auth-form-container">
+      <Form className="container h-100 w-100 formCadastro ">
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
@@ -27,6 +28,7 @@ function Cadastrar() {
         Submit
       </Button>
     </Form>
+    </div>
     </>
   );
 };
