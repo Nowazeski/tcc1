@@ -1,3 +1,18 @@
 .recoveryPass{
     font-family: Arial, Helvetica, sans-serif;
 }
+@media screen and (max-width: 500px){
+
+    .EsqueceuASenha{
+
+        height: auto;
+        margin: -25vh 0vh 10vh 0vh;
+
+
+    }
+    .Auth-form-container{
+
+        
+        
+    }
+} 

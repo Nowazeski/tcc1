@@ -1,3 +1,15 @@
-.formCadastro{
-    
+.form-cadastro{
+    height: 75vh!important;
+    margin-top: 10vh;
+    padding:5%;
+}
+.Auth-form-container{
+}
+
+@media screen and (max-width: 500px) {
+    .formCadastro{
+        font-family: Arial, Helvetica, sans-serif;
+        /* font-size: 3vh; */
+        margin-top: 6vh;
+    }
 }

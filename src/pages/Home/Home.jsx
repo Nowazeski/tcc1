@@ -6,7 +6,7 @@ import '../css/home.css'
 export default function Home() {
 
   return (
-    <div className="row justify-content-around home ">
+    <div className="row justify-content-around home">
       <Card></Card>
     </div>
 

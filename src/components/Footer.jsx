@@ -15,7 +15,7 @@ export default function Footer() {
               <div className="col-xs-12 col-sm-6 col-md-6">
                 <div className="widget subscribe no-box">
                   <h5 className="widget-title logo">ACADEMY<span></span></h5>
-                  <p>Buscamos excelencia em passar o conhecimento.</p>
+                  {/* <p className="col-4 offset-4">Buscamos excelencia em passar o conhecimento.</p> */}
                 </div>
               </div>
 
