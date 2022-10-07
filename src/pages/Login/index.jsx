@@ -1,8 +1,8 @@
 import react from "react";
 import RecoveryPass from "../EsqueceuSenha";
+import axios from 'axios';
 
 import "../css/login.css";
-import { Route } from "react-router-dom";
 import Rotas from "../../rotas";
 
 export default function Login1(){
@@ -31,12 +31,12 @@ export default function Login1(){
             />
           </div>
           <div className="d-grid gap-2 mt-3">
-            <button type="submit" className="btn btn-primary">
-              Submit
+            <button type="submit" className="btn btn bg-dark" href="" onClick={Logout}>
+            <a href="./EspacoProfessor"  onClick={Evento}>Login?</a>
             </button>
           </div>
           <p className="forgot-password text-right mt-2">
-            Forgot <a href="./EsqueceuAsenha" onClick={Evento}>password?</a>
+            Forgot <a href="./EsqueceuAsenha"  onClick={Evento}>password?</a>
           </p>
         </div>
       </form>
@@ -50,5 +50,12 @@ export default function Login1(){
 
     function Evento(){
       <Rotas></Rotas>
+    }
+
+    function Logout(){
+
+      // authService.CleanLoggerUser();
+      window.location.reload();
+
     }
 };

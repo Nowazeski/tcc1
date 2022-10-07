@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar.jsx";
 import Footer from "./components/Footer";
 import Card1 from "./components/Card1";
 import RecoveryPass from "./pages/EsqueceuSenha/index.jsx";
+import EspacoProfessor from "./pages/EspacoProfessor/index.jsx";
 
 
 export default function Rotas() {
@@ -20,6 +21,7 @@ export default function Rotas() {
         <Route path="/Entrar" exact element={<Login1 />}></Route>
         <Route path="/Cadastrar" exact element={<Cadastrar />}></Route>
         <Route path="/EsqueceuAsenha" exact element={<RecoveryPass />}></Route>
+        <Route path="/EspacoProfessor" exact element={<EspacoProfessor />}></Route>
 
       </Routes>
       <Footer></Footer>
