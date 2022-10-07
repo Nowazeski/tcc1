@@ -13,9 +13,6 @@ function Cadastrar() {
     <>
 
       <h1>Cadastro do Professor</h1>
-
-
-
     
     
       <Form.Floating className="mb-3">
