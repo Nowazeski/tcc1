@@ -1,9 +1,19 @@
-.container-card{
-  height: 10vh;
-}
 .botao{
   margin-top: 3vh;
 }
-.card-img{
+
+.home-imagem{
+  height: 50vh;
   /* background-image: url(../../img/img.jpg); */
+}
+
+.centered {
+  text-align: center;
+}
+
+.div-centered {
+  height: 80vh; /* Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

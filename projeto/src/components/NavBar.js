@@ -2,15 +2,6 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
-
-import Home from '../pages/Home/Home';
-
-import Entrar from "../pages/Entrar";
-// import './css/navBar.css'
-import rotas from "../rotas";
-
 
 function NavBar() {
   return (
@@ -24,8 +15,8 @@ function NavBar() {
           </DropdownButton> */}
           <Nav className="me-auto subMenu">
             {/* <Nav.Link href="../pages/Home/">Inicio</Nav.Link> */}
-            <Nav.Link href="#">Entrar</Nav.Link>
-            <Nav.Link href="#">Cadastre-se</Nav.Link>
+            <Nav.Link href="/">Entrar</Nav.Link>
+            <Nav.Link href="/cadastro">Cadastre-se</Nav.Link>
           </Nav>
         </Container>
       </Navbar >

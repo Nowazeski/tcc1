@@ -2,7 +2,11 @@ footer{
   background-image: linear-gradient(50deg,rgb(0, 0, 0),rgb(10, 113, 253));
   color:white;
   font-size: 16px;
-  height: 17vh;
+  height: 13vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 
 }
 .logo{
