@@ -1,0 +1,22 @@
+.text-center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titulo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.h-10 {
+    height: 35%;
+}
+
+.dropdown-toggle.btn.btn-primary {
+    width: 100%;
+}
+
+.dropdown-menu.show {
+    height: auto;
+}
+

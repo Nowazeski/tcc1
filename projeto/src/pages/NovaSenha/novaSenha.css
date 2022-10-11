@@ -1,0 +1,13 @@
+.text-center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titulo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.h-10 {
+    height: 35%;
+}
