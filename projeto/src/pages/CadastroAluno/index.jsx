@@ -4,14 +4,14 @@ import Form from 'react-bootstrap/Form';
 import './cadastro.css'
 
 
-function Cadastrar() {
+function CadastroAluno() {
   return (
     <>
       <div className="container">
         <div className="row">
           <div className="col-3" />
           <div class="col-6 text-center">
-            <h2 className="titulo">Cadastro do Professor</h2>
+            <h2 className="titulo">Cadastro do Aluno</h2>
           </div>
           <div className="col-3" />
         </div>
@@ -40,10 +40,10 @@ function Cadastrar() {
             <Form.Floating className="mb-3">
               <Form.Control
                 id="floatingInputCustom"
-                type="email"
+                type="input"
                 size="lg"
               />
-              <label htmlFor="floatingInputCustom">Email:</label>
+              <label htmlFor="floatingInputCustom">Número Chamada:</label>
             </Form.Floating>
           </div>
 
@@ -56,10 +56,10 @@ function Cadastrar() {
           <div className="col-6">
             <Form.Floating className="mb-3">
               <Form.Control
-                id="floatingPasswordCustom"
-                type="password"
+                id="floatingSerieCustom"
+                type="input"
               />
-              <label htmlFor="floatingPasswordCustom">Senha:</label>
+              <label htmlFor="floatingSerieCustom">Série:</label>
             </Form.Floating>
           </div>
 
@@ -72,11 +72,10 @@ function Cadastrar() {
           <div className="col-6">
             <Form.Floating>
               <Form.Control
-                id="floatingPasswordCustom"
-                type="password"
-                placeholder="Password"
+                id="floatingTurmaCustom"
+                type="input"
               />
-              <label htmlFor="floatingPasswordCustom">Confirme a Senha:</label>
+              <label htmlFor="floatingTurmaCustom">Turma:</label>
             </Form.Floating>
           </div>
 
@@ -89,11 +88,11 @@ function Cadastrar() {
           <div className="col-6">
             <Form.Floating>
               <Form.Control
-                id="ffloatingInputCustom"
+                id="floatingDataCustom"
                 type="date"
                 placeholder="DD/MM/YYYY"
               />
-              <label htmlFor="floatingInputCustom">Data de Cadastro:</label>
+              <label htmlFor="floatingDataCustom">Data de Cadastro:</label>
             </Form.Floating>
           </div>
 
@@ -114,4 +113,4 @@ function Cadastrar() {
   );
 };
 
-export default Cadastrar;
+export default CadastroAluno;
