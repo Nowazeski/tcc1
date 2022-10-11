@@ -15,7 +15,8 @@ function Rotas() {
     <BrowserRouter>
       <NavBar></NavBar>
       <Routes>
-      <Route path="/" element={<Cadastrar />}></Route>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/cadastro" element={<Cadastrar />}></Route>
       </Routes>
       <Footer></Footer>
     </BrowserRouter>
