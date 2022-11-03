@@ -22,7 +22,7 @@ export default function Card1() {
               <Button className="botao w-100" variant="primary">Cadastrar</Button>
             </div>
             <div className='col-6'>
-              <Button className="botao w-100" variant="primary">Entrar</Button>
+              <Button className="botao w-100" variant="primary">Inicio</Button>
             </div>
           </div>
         </div>

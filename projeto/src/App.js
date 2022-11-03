@@ -4,12 +4,10 @@ import Rotas from './rotas';
 
 
 
-function App() {
+export  default function App() {
   return (
     <>
       <Rotas></Rotas>
     </>
   );
 }
-
-export default App;
