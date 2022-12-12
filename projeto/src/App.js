@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Rotas from './rotas';
 import React from 'react';
 
-function App() {
+export  default function App() {
   return (
     <>
       <div className="app">
@@ -15,5 +15,3 @@ function App() {
     </>
   );
 }
-
-export default App;

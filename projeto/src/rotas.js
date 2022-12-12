@@ -10,25 +10,35 @@ import NovaSenha from "./pages/NovaSenha/novaSenha.jsx";
 import CadastroAluno from "./pages/CadastroAluno/index.jsx";
 import InicioTeste from "./pages/InicioTeste/inicioTeste.jsx";
 import Metricas from "./pages/Metricas/metricas.jsx";
+import Exemplo from "./pages/ExemploTeste/exemplo"
+import Exemplo2 from "./pages/ExemploTeste/exemplo2"
+import ExemploMate from "./pages/ExemploTeste/exemploMate"
+import ExemploMate2 from "./pages/ExemploTeste/exemploMate2"
+import ExemploIngle from "./pages/ExemploTeste/exemploIngle"
+import ExemploIngle2 from "./pages/ExemploTeste/exemploIngle2"
 
 
-function Rotas() {
+export default function Rotas() {
 
   return (
     <BrowserRouter>
       <NavBar></NavBar>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/cadastro" element={<Cadastrar />}></Route>
-        <Route path="/esqueceu-senha" element={<EsqueceuSenha />}></Route>
-        <Route path="/nova-senha" element={<NovaSenha />}></Route>
-        <Route path="/cadastro-aluno" element={<CadastroAluno />}></Route>
-        <Route path="/inicio-teste" element={<InicioTeste />}></Route>
-        <Route path="/metricas" element={<Metricas />}></Route>
+        <Route path="/" exact element={<Home />}></Route>
+        <Route path="/cadastro" exact element={<Cadastrar />}></Route>
+        <Route path="/esqueceu-senha" exact element={<EsqueceuSenha />}></Route>
+        <Route path="/nova-senha" exact element={<NovaSenha />}></Route>
+        <Route path="/cadastro-aluno" exact element={<CadastroAluno />}></Route>
+        <Route path="/inicio-teste" exact element={<InicioTeste />}></Route>
+        <Route path="/metricas" exact element={<Metricas />}></Route>
+        <Route path="/exemplo" exact element={<Exemplo />}></Route>
+        <Route path="/exemplo2" exact element={<Exemplo2 />}></Route>
+        <Route path="/ExemploMate" exact element={<ExemploMate />}></Route>
+        <Route path="/ExemploMate2" exact element={<ExemploMate2 />}></Route>
+        <Route path="/ExemploIngle" exact element={<ExemploIngle />}></Route>
+        <Route path="/ExemploIngle2" exact element={<ExemploIngle2 />}></Route>
       </Routes>
       <Footer></Footer>
     </BrowserRouter>
   );
 };
-
-export default Rotas;
